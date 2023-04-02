@@ -1,0 +1,75 @@
+/* CSS Reset */
+
+/* Box-sizing reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+blockquote,
+figure,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font size and line-height */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove default text decoration for links */
+a {
+    text-decoration: none;
+}
+
+/* Set default color for links */
+a {
+    color: #333;
+}
+
+/* Remove default border on images */
+img {
+    border-style: none;
+}
+
+/* Remove default button styles */
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Set default border-box sizing for all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* End of CSS Reset */

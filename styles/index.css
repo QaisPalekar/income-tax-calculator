@@ -1,0 +1,46 @@
+.title {
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    max-width: 60%;
+    grid-gap: 20px;
+    margin-top: 30px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.input-container > input {
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.input-container > button {
+    color: white;
+    background: black;
+    border-radius: 0.5rem;
+}
+
+.display-table {
+    width: 20rem;
+    margin: auto;
+    margin-top: 5rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.table-heading {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.table-heading:first-child {
+    text-align: left;
+}
